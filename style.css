@@ -1,0 +1,144 @@
+*{
+    margin:  0px;
+    padding: 0px;
+}
+body{
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    height: 500px;
+    width: 100%;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.logo{
+    height: 100%;
+    width: 15% ;
+    background-color: white;
+    float: left;
+    margin-left: 5%;
+}
+.sn{
+    height:100%;
+    width: 70%;
+    background-color: white;
+    float: right;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+nav{
+    height: 38px;
+    width: 100%;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    font-size: 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+nav ul li{
+    display: inline;
+
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: gray;
+}
+a:hover{
+    color: green;
+}
+.container{
+    height: 480px;
+    width: 100%;
+    background-color: white;
+    background-image: url("160.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+.con1{
+    height: 480px;
+    width: 15%;
+    background-color: whitesmoke;
+    float: left;
+    font-size: 20px;
+    border-right: 1px solid gray;
+
+}
+.con2{
+    height: 480px;
+    width: 84%;
+    background-color: white;
+    float: right;
+    background-image: url("160.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+.footer{
+    height: 26px;
+    width: 100%;
+    border-top: 1px solid gray;
+    background-color: gainsboro;
+}
+li input{
+    height: 30px;
+    border-radius: 8px;
+    border:1px solid white;
+    margin-left: 50px;
+    width: 500px;
+}
+.h1{
+    margin-top: 5px;
+    font-size: 50px;
+    font-family: 'Style Script', cursive;
+    color: blue;
+}
+
+.form{
+    margin-left: 400px ;
+    width: 400px;
+    padding-top: 30px;
+    padding: 10px;
+}
+table tr td{
+    padding: 10px;
+    font-size: 20px;
+}
+.inp{
+    height: 30px;
+    width: 200px;
+    border:1px solid gainsboro;
+    border-radius: 10px;
+}
+select option{
+    color:gray;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 8px;
+}
+button:hover{
+    box-shadow: 5px 5px black;
+}
+span{
+    color: red;
+}
+
+.div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(255, 102, 0);
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+    font-size: 80px;
+    box-shadow: -5px 5px 5px 5px black;
+}
